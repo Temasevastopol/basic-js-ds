@@ -21,7 +21,7 @@ class Queue {
         
       }
   getUnderlyingList() {
-    return this.head
+    return {'value':this.tailIndex - this.headIndex, 'next': null}
     // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
   }
